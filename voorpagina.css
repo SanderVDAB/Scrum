@@ -24,7 +24,7 @@
 
 .grid {
    display: grid;
-   grid-template-areas: 'a a a a a a''b c c c c c'' d d d d d d';
+   grid-template-areas: 'a a a a a a''b b c c c c'' d d d d d d';
    gap: 10px;
 
    background-color: orange;
