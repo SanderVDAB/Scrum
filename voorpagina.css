@@ -73,7 +73,7 @@ span{
 }
 
 /* Charlotte css */
-.grid-container {
+/* .grid-container {
     display: grid;
     grid-template-areas: auto auto auto auto;
     grid-gap: 10px;
@@ -86,12 +86,21 @@ span{
     text-align: center;
     padding: 20px 0;
     font-size: 30px;
-}
+} */
 
 .CardsChar{
    display: flex;
-   flex-direction: row;
+   flex-direction: column;
    flex-wrap: wrap;
+   justify-content: center;
+}
+
+.CardsChar h2{
+   display: flex;
+}
+
+.CardsChar p{
+   display: flex;
 }
 
 .CardChar{
@@ -101,6 +110,7 @@ span{
    height: 500px;
    justify-content: center;
    align-content: flex-start;
+   background-color: hotpink;
 }
 
 .CardChar h2{
