@@ -24,7 +24,7 @@
 
 .grid {
    display: grid;
-   grid-template-areas: 'a a a a a a''b c c c c c'' d d d d d d';
+   grid-template-areas: 'a a a a a a''b b c c c c'' d d d d d d';
    gap: 10px;
 
    background-color: orange;
@@ -34,8 +34,46 @@
    text-align: center;
    padding: 10px 0;
    font-size: 30px;
-
 }
+
+/* css divinatie */
+span{
+   font-weight: 700;
+}
+
+.metHand{
+   display: flex;
+}
+
+.metHand img{
+   height: fit-content;
+   align-self: center;
+}
+
+/* Charlotte css */
+.item1 { grid-area: 1 / 1 / 2 / 2; }
+.item2 { grid-area: 1 / 2 / 2 / 3; }
+.item3 { grid-area: 1 / 3 / 2 / 4; }
+.item4 { grid-area: 2 / 1 / 3 / 2; }
+.item5 { grid-area: 2 / 2 / 3 / 3; }
+.item6 { grid-area: 2 / 3 / 3 / 4; }
+
+  .grid-container {
+    display: grid;
+    grid-template-areas: auto auto auto auto;
+    grid-gap: 10px;
+    background-color: #99C34E;
+    padding: 10px;
+  }
+  
+  .grid-container > div {
+    background-color: #440445(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+  }
+
+/* Semmi css */
 .stenen img {
    max-height: 150px;
    max-width: 200 px;
