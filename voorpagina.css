@@ -20,7 +20,7 @@
 .vierkant4 {
    background-color: yellow;
    grid-area: d;
-
+   font-size: 12pt;
 }
 
 .grid {
@@ -112,5 +112,31 @@ body { padding: 1rem; }
 /* Screen larger than 900px? 3 columns */
 @media (min-width: 900px) {
   .cards { grid-template-columns: repeat(3, 1fr); }
+}
+
+
+#footer1 {
+   display: flex;
+   height: 70%;
+   font-size: 12pt;
+   justify-content: space-between;
+}
+#footer2 {
+   display: flex;
+   height: 20%;
+   font-size: 12pt;
+   justify-content: space-between;
+   align-items: center;
+}
+
+#copyRight {
+   flex-grow: 10;
+   
+}
+
+.footer-icon {
+   width: 20px;
+   height: 20px;
+   flex-grow: 1;
 }
 
