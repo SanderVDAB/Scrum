@@ -13,20 +13,20 @@ header{
 	position: relative;
 	overflow: hidden;
 	border-radius: 0 0 85% 85% / 30%;
-   opacity: .7;
+   
 }
 header .overlay{
 	width: 100%;
 	height: 100%;
 	padding: 50px;
-	color: #FFF;
+	color: black;
 	text-shadow: 1px 1px 1px #333;
-  background-image: linear-gradient( 135deg, #440445 10%, #99C34E 100%);
+   background-image: linear-gradient( 135deg, #440445 10%, #99C34E 100%);
 	
 }
 
 .vierkant2 {
-   background-color: green;
+   background-color: #99C34E;
    grid-area: b;
    /* height: 1200px; */
    display: flex;
@@ -34,12 +34,12 @@ header .overlay{
 }
 
 .vierkant3 {
-   background-color: purple;
+   background-color: #440445;
    grid-area: c;
 }
 
 .vierkant4 {
-   background-color: yellow;
+   background-image: linear-gradient( 135deg, #440445 10%, #99C34E 100%);
    grid-area: d;
    font-size: 12pt;
 }
@@ -73,20 +73,89 @@ span{
 }
 
 /* Charlotte css */
-  .grid-container {
+/* .grid-container {
     display: grid;
     grid-template-areas: auto auto auto auto;
     grid-gap: 10px;
     background-color: #99C34E;
     padding: 10px;
-  }
+}
   
-  .grid-container > div {
+.grid-container > div {
     background-color: #440445(255, 255, 255, 0.8);
     text-align: center;
     padding: 20px 0;
     font-size: 30px;
-  }
+} */
+
+.CardsChar{
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+   justify-content: center;
+}
+
+.CardsChar h2{
+   display: flex;
+}
+
+.CardsChar p{
+   display: flex;
+}
+
+.CardChar{
+   display: flex;
+   flex-direction: column;
+   width: 300px;
+   height: 500px;
+   justify-content: center;
+   align-content: flex-start;
+   background-color: hotpink;
+}
+
+.CardChar h2{
+   display: flex;
+   justify-content: center;
+   margin: 0;
+}
+
+     /* .grid-container {
+         width: 90%;
+         margin: 50px auto;
+     }
+     .heading {
+         text-align: center;
+         font-size:30px;
+         margin-bottom: 50px;
+     }
+     
+     .card{
+      width: 20%;
+      background: #440445;
+      border: 1px solid #FFF;
+      margin-bottom: 50px;
+      transition: 0.3s;
+     }
+     .card-header {
+         text-align:center;
+         padding: 50px 10px;
+         background: linear - gradient(to right,#99C34E, #4e6e16 );
+         color: #FFF;
+     }
+
+     .card-body {
+         padding:30px 20px;
+         text-align: center;
+         font-size: 18px;
+     }
+
+     .card-body .btn {
+         display:block;
+         color: #FFF;
+         text-align:center;
+         background:linear-gradient(to right,#99C34E, #4e6e16)
+     } */
+
 
 /* Semmi css */
 .stenen img {
@@ -148,7 +217,8 @@ html { font-size: 18px; }
 }
 
 #copyRight {
-   flex-grow: 10;   
+   flex-grow: 10;  
+   display: flex; 
    
 }
 
