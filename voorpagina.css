@@ -1,3 +1,7 @@
+*{   
+   color: white;
+}
+
 .vierkant1 {
    background-color: white;
    grid-area: a;
