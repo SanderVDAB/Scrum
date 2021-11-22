@@ -98,12 +98,15 @@ span{
    display: flex;
    flex-direction: column;
    width: 300px;
-   justify-content: flex-start;
+   height: 500px;
+   justify-content: center;
+   align-content: flex-start;
 }
 
 .CardChar h2{
    display: flex;
    justify-content: center;
+   margin: 0;
 }
 
      /* .grid-container {
