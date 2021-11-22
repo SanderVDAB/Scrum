@@ -73,20 +73,76 @@ span{
 }
 
 /* Charlotte css */
-  .grid-container {
+.grid-container {
     display: grid;
     grid-template-areas: auto auto auto auto;
     grid-gap: 10px;
     background-color: #99C34E;
     padding: 10px;
-  }
+}
   
-  .grid-container > div {
+.grid-container > div {
     background-color: #440445(255, 255, 255, 0.8);
     text-align: center;
     padding: 20px 0;
     font-size: 30px;
-  }
+}
+
+.CardsChar{
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+}
+
+.CardChar{
+   display: flex;
+   flex-direction: column;
+   width: 300px;
+   justify-content: flex-start;
+}
+
+.CardChar h2{
+   display: flex;
+   justify-content: center;
+}
+
+     /* .grid-container {
+         width: 90%;
+         margin: 50px auto;
+     }
+     .heading {
+         text-align: center;
+         font-size:30px;
+         margin-bottom: 50px;
+     }
+     
+     .card{
+      width: 20%;
+      background: #440445;
+      border: 1px solid #FFF;
+      margin-bottom: 50px;
+      transition: 0.3s;
+     }
+     .card-header {
+         text-align:center;
+         padding: 50px 10px;
+         background: linear - gradient(to right,#99C34E, #4e6e16 );
+         color: #FFF;
+     }
+
+     .card-body {
+         padding:30px 20px;
+         text-align: center;
+         font-size: 18px;
+     }
+
+     .card-body .btn {
+         display:block;
+         color: #FFF;
+         text-align:center;
+         background:linear-gradient(to right,#99C34E, #4e6e16)
+     } */
+
 
 /* Semmi css */
 .stenen img {
