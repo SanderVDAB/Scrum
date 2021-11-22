@@ -35,12 +35,13 @@ header .overlay{
    /* height: 1200px; */
    display: flex;
    flex-direction: column;
-   width: 200px;
+   /* width: 20%; */
 }
 
 .vierkant3 {
    background-color: #440445;
    grid-area: c;
+   /* width: 80%; */
 }
 
 .vierkant4 {
@@ -51,7 +52,7 @@ header .overlay{
 
 .grid {
    display: grid;
-   grid-template-areas: 'a a a a a a''b b c c c c'' d d d d d d';
+   grid-template-areas: 'a a a a a a a a a a''b b c c c c c c c c'' d d d d d d d d d d';
    gap: 10px;
 
    background-color: white;
