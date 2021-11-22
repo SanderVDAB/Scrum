@@ -36,3 +36,17 @@
    font-size: 30px;
 
 }
+
+/* css divinatie */
+span{
+   font-weight: 700;
+}
+
+.metHand{
+   display: flex;
+}
+
+.metHand img{
+   height: fit-content;
+   align-self: center;
+}
