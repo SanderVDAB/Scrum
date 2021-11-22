@@ -13,20 +13,20 @@ header{
 	position: relative;
 	overflow: hidden;
 	border-radius: 0 0 85% 85% / 30%;
-   opacity: .7;
+   
 }
 header .overlay{
 	width: 100%;
 	height: 100%;
 	padding: 50px;
-	color: #FFF;
+	color: black;
 	text-shadow: 1px 1px 1px #333;
-  background-image: linear-gradient( 135deg, #440445 10%, #99C34E 100%);
+   background-image: linear-gradient( 135deg, #440445 10%, #99C34E 100%);
 	
 }
 
 .vierkant2 {
-   background-color: green;
+   background-color: #99C34E;
    grid-area: b;
    /* height: 1200px; */
    display: flex;
@@ -34,12 +34,12 @@ header .overlay{
 }
 
 .vierkant3 {
-   background-color: purple;
+   background-color: #440445;
    grid-area: c;
 }
 
 .vierkant4 {
-   background-color: yellow;
+   background-image: linear-gradient( 135deg, #440445 10%, #99C34E 100%);
    grid-area: d;
    font-size: 12pt;
 }
@@ -148,7 +148,8 @@ html { font-size: 18px; }
 }
 
 #copyRight {
-   flex-grow: 10;   
+   flex-grow: 10;  
+   display: flex; 
    
 }
 
