@@ -36,3 +36,10 @@
    font-size: 30px;
 
 }
+.stenen img {
+   max-height: 150px;
+   max-width: 200 px;
+   width: 120 px;
+   height: 120 px;
+}
+
