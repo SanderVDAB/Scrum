@@ -31,6 +31,7 @@ header .overlay{
    /* height: 1200px; */
    display: flex;
    flex-direction: column;
+   width: 200px;
 }
 
 .vierkant3 {
@@ -90,16 +91,16 @@ span{
 
 .CardsChar{
    display: flex;
-   flex-direction: column;
+   flex-direction: row;
    flex-wrap: wrap;
    justify-content: center;
 }
 
-.CardsChar h2{
+.CardsChar > h2{
    display: flex;
 }
 
-.CardsChar p{
+.CardsChar > p{
    display: flex;
 }
 
@@ -109,11 +110,11 @@ span{
    width: 300px;
    height: 500px;
    justify-content: center;
-   align-content: flex-start;
+   /* align-content: flex-start; */
    background-color: hotpink;
 }
 
-.CardChar h2{
+.CardChar > h2{
    display: flex;
    justify-content: center;
    margin: 0;
