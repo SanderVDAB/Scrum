@@ -6,6 +6,60 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Document</title>
    <link rel="stylesheet" href="./voorpagina.css">
+
+   <style>
+       *{
+           padding:0;
+           margin:0;
+           box-sizing: border-box;
+       }
+
+       body{
+        background-color: bisque;
+        font-family: sans-serif;
+       }
+
+       .grid-container {
+           width: 90%;
+           margin: 50px auto;
+       }
+       .heading {
+           text-align: center;
+           font-size:30px;
+           margin-bottom: 50px;
+       }
+
+       .row{
+
+       }
+       
+       .card{
+        width: 20%;
+        background: #440445;
+        border: 1px solid #FFF;
+        margin-bottom: 50px;
+        transition: 0.3s;
+       }
+       .card-header {
+           text-align:center;
+           padding: 50px 10px;
+           background: linear - gradient(to right,#99C34E, #4e6e16 );
+           color: #FFF;
+       }
+
+       .card-body {
+           padding:30px 20px;
+           text-align: center;
+           font-size: 18px;
+       }
+
+       .card-body .btn {
+           display:block;
+           color: #FFF;
+           text-align:center;
+           background:linear-gradient(to right,#99C34E, #4e6e16)
+       }
+   </style>
 </head>
 <body>
   <div class="parent grid">
@@ -21,27 +75,54 @@
           <a href="edelstenen.html">Edelstenen</a>
           <a href="spiritualiteit.html">Spritualiteit</a>
       </div>
+
+      
       <div class="vierkant3">
         <h2>Astrologie</h2>
 
         <p>4 Elementen</p>
         
         <div class="Spirituele Ontdekkingsreis">
-          <div class="Vuur">
-          <h2>wil DOEN</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A deleniti nesciunt labore asperiores voluptate minus.</p>
-        </div>
+            <div class="row">
+                <div class="card">
+                    <div class="card-header">
+                        <div class="Vuur">
+                    <div class="card-body">
+                         <h2>wil DOEN</h2>
+                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A deleniti nesciunt labore asperiores voluptate minus.</p>
+                        <a href="#" class="btn">Read more</a>
+                        </div>
+                </div>
+
+        <div class="card">
+        <div class="card-header">
           <div class="Aarde">
+          </div>
+        <div class="card-body">
           <h2>wil ERVAREN</h2>
           <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam, neque? Reiciendis laudantium numquam commodi laborum.</p>
+          <a href="#" class="btn">Read more</a>
         </div>
-          <div class="Water"> 
+
+        <div class="card">
+        <div class="card-header">
+          <div class="Water">
+          </div>
+          <div class="card-body">
           <h2>wil VOELEN</h2>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit odit illo dolorum exercitationem officiis deserunt!</p>
+          <a href="#" class="btn">Read more</a>
         </div> 
+
+        <div class="card">
+        <div class="card-header">
           <div class="Lucht">
+        </div>
+        <div class="card-body">
           <h2>wil PRATEN</h2>
           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis quibusdam autem nemo tempora impedit illo?</p>
+          <a href="#" class="btn">Read more</a>
+        </div>
         </div>
         </div>
       </div>
