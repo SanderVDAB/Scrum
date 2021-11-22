@@ -7,8 +7,9 @@
 .vierkant2 {
    background-color: green;
    grid-area: b;
-   height: 1200px;
-  
+   /* height: 1200px; */
+   display: flex;
+   flex-direction: column;
 }
 
 .vierkant3 {
